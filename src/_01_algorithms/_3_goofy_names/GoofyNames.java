@@ -23,7 +23,7 @@ public class GoofyNames {
 				char letter = name.charAt(i);
 				
 				// 5. Use MODULO operator (%) to identify if it is an EVEN or ODD character.
-				if(name.length()%2==0) {
+				if(i%2==0) {
 					letter = Character.toUpperCase(letter);
 				}
 				else {
