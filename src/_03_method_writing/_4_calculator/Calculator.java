@@ -26,6 +26,7 @@ public class Calculator {
 		else {
 			result=add(number1,number2);
 		}
+		JOptionPane.showMessageDialog(null, result(result));
 		// 4) Call the result() method and put the answer in a pop-up
 	}
 	
